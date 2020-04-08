@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sen', sans-serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Vibur', 'Sen', sans-serif;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.3rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-family: 'Sen', sans-serif;
+  margin: 50px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Sen', sans-serif;
+}
+
+p {
+  color: #40514E;
+  font-family: 'Sen', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Sen', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/*** CLASS TAGS ***/
+/** photo & icon tags **/
+.profile-img {
+  height: 120px;
+  width: 120px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 230px;
+}
+
+.top-cloud {
+  margin: 50px auto auto 700px;
+}
+
+.world-icon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-icon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+/** containers **/
+.top-container {
+  background-color: #e4f9ff;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+/* other */
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+  background-color: #11999E;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Sen', sans-serif;
+  font-size: 15px;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 0px 50px #11999E;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #11999E 5%, #66BFBF 100%);
+  background-color: #66BFBF;
+}
+
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
